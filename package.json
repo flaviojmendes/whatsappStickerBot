@@ -1,0 +1,19 @@
+{
+  "name": "stickerbot",
+  "version": "1.0.0",
+  "description": "This is a Bot that when the user sends `.gif subject` will answer with an animated Sticker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts"
+  },
+  "author": "flaviojmendes",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.10.15",
+    "g-i-s": "^2.1.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "util": "^0.12.3"
+  }
+}
